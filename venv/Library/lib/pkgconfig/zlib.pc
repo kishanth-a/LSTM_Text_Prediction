@@ -1,0 +1,13 @@
+prefix=D:/Kishanth/Projects/LSTM_Text_Prediction/venv/Library
+exec_prefix=D:/Kishanth/Projects/LSTM_Text_Prediction/venv/Library
+libdir=D:/Kishanth/Projects/LSTM_Text_Prediction/venv/Library/lib
+sharedlibdir=D:/Kishanth/Projects/LSTM_Text_Prediction/venv/Library/lib
+includedir=D:/Kishanth/Projects/LSTM_Text_Prediction/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
