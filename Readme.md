@@ -62,7 +62,7 @@ pip install -r requirements.txt
 ### 3. Run the Application
 
 ```bash
-python app.py
+streamlit run app.py
 ```
 
 Once the server is running, open your browser and navigate to:
